@@ -11,8 +11,8 @@
             android:windowSoftInputMode="stateAlwaysHidden">
         <activity android:name=".SecondActivity" />
     </application>
-
-
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.FLASHLIGHT" />
 
     <uses-feature android:name="android.hardware.camera" />
