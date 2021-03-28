@@ -8,11 +8,14 @@ Once scanned, shoppers can confirm their order from the app and are then redirec
 option to get the items delivered on their doorstep in the most contactless and effortless manner.
 
 Permission Required:
+
 <uses-permission android:name="android.permission.CAMERA" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
 Add this folllowing Dependendices to pubspec.yaml file :
+
+
 dependencies:
  qrscan: ^0.2.22
 
